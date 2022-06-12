@@ -18,6 +18,3 @@ RegisterCommand("lpgame", function()
 	end
 end)
 	
-# Amount of time to spin and amount of time to trigger are currently held within the js I am trying to export it to lua
-# Amount and Time now work, but functioning success now doesn't go over to the export.
-# Fixed the Lockpick now ready for use, enjoy!
