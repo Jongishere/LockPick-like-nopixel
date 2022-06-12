@@ -1,8 +1,8 @@
 local Result = nil
 local NUI_status = false
 
-RegisterNetEvent('kwk-lockpick:client:openLockpick')
-AddEventHandler('kwk-lockpick:client:openLockpick', function(callback, circles)
+RegisterNetEvent('jong-lockpick:client:openLockpick')
+AddEventHandler('jong-lockpick:client:openLockpick', function(callback, circles)
     lockpickCallback = callback
     exports['qb-lock']:StartLockPickCircle(total,circles) 
 end)
